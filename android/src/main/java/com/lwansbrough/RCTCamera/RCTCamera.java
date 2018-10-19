@@ -349,7 +349,7 @@ public class RCTCamera {
                 value = Camera.Parameters.FLASH_MODE_AUTO;
                 break;
             case RCTCameraModule.RCT_CAMERA_FLASH_MODE_ON:
-                value = Camera.Parameters.FLASH_MODE_ON;
+                value = Camera.Parameters.FLASH_MODE_TORCH;
                 break;
             case RCTCameraModule.RCT_CAMERA_FLASH_MODE_OFF:
                 value = Camera.Parameters.FLASH_MODE_OFF;
